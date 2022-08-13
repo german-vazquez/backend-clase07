@@ -26,7 +26,7 @@ public class Circulo {
         this.tamano = tamano;
     }
 
-    public void dibujar(){
+    public void dibujar() {
         System.out.println("Dibujamos objeto color: " + color);
     }
 }

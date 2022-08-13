@@ -1,7 +1,8 @@
 package asincronico;
 
 public class Main {
-    private static final String colores[]={"rojo", "azul", "verde", "negro"};
+    private static final String colores[] = {"rojo", "azul", "verde", "negro"};
+
     public static void main(String[] args) {
 
         for (int i = 0; i < 50; i++) {
@@ -12,7 +13,7 @@ public class Main {
         }
     }
 
-    private static String colorAleatorio(){
-        return colores[(int)(Math.random()* colores.length)];
+    private static String colorAleatorio() {
+        return colores[(int) (Math.random() * colores.length)];
     }
 }
